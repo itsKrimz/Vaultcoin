@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault Coin - Welcome to the Wasteland</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Landing Screen -->
+  <div id="landing-screen">
+    <div id="vault-container">
+      <div id="vault-door">
+        <pre id="ascii-vault">
+____   ____            .__   __    _________        .__        
+\   \ /   /____   __ __|  |_/  |_  \_   ___ \  ____ |__| ____  
+ \   Y   /\__  \ |  |  \  |\   __\ /    \  \/ /  _ \|  |/    \ 
+  \     /  / __ \|  |  /  |_|  |   \     \___(  <_> )  |   |  \
+   \___/  (____  /____/|____/__|    \______  /\____/|__|___|  /
+               \/                          \/               \/  
+        </pre>
+        <p id="terminal-message">Access Restricted: Flip the switch to open the vault</p>
+        <button id="vault-button">Open Vault</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vault Animation -->
+  <div id="vault-animation" style="display: none;">
+    <div id="key-animation">
+      <div class="key"></div>
+      <div class="keyhole"></div>
+    </div>
+    <p>Unlocking Vault...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display: none;">
+<header>
+  <img id="logo" src="https://i.ibb.co/mcbyDGd/Anthony.png" alt="Vault Coin Logo">
+  <h1>Welcome to Vault Coin</h1>
+  <p>The ultimate currency for the post-apocalypse, where bottle caps just don’t cut it anymore.</p>
+  
+  <div id="social-icons">
+    <a href="https://twitter.com" target="_blank">
+      <img id="twitter-icon" src="https://cdn.punchng.com/wp-content/uploads/2023/07/24084806/Twitter-new-logo.jpeg" alt="Twitter Icon">
+    </a>
+    <a href="https://pump.fun" target="_blank">
+      <img id="pumpfun-icon" src="https://pbs.twimg.com/profile_images/1785652070084734976/BBqyuDPm_400x400.png" alt="PumpFun Icon">
+    </a>
+    <a href="https://dexscreener.com" target="_blank">
+      <img id="dexscreener-icon" src="https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png" alt="DexScreener Icon">
+    </a>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About Vault Coin</h2>
+  <p>Vault Coin is the premier cryptocurrency for wasteland survivors, vault dwellers, and anyone who understands the value of a solid community. Inspired by the post-apocalyptic charm of the Fallout universe, Vault Coin combines cutting-edge blockchain technology with the resilience needed to survive any market crash—or nuclear fallout.</p>
+  
+  <p>Unlike traditional currencies, Vault Coin operates on a decentralized blockchain, ensuring transparency and fairness for all users. With a supply capped at 1 billion coins, we’ve struck a balance between scarcity and accessibility, making Vault Coin a true store of value for the modern apocalypse.</p>
+  
+  <h3>What Makes Vault Coin Unique?</h3>
+  <ul>
+    <li><strong>Built for Survivors:</strong> Vault Coin isn’t just a currency—it’s a lifestyle. Whether you’re trading gear in the wasteland or haggling for a bottle of Nuka-Cola, Vault Coin ensures fair and easy transactions.</li>
+    <li><strong>Memes That Matter:</strong> At its core, Vault Coin is powered by a passionate meme-driven community. We believe humor and creativity are essential for building connections, even in the harshest environments.</li>
+    <li><strong>Resilience Beyond Measure:</strong> Designed to withstand market volatility, Vault Coin’s blockchain ensures stability even during the toughest economic nuclear winters.</li>
+  </ul>
+
+  <h3>Our Mission</h3>
+  <p>Vault Coin’s mission is to bring the wasteland together through the power of decentralized finance and creativity. We aim to create a community where everyone, from vault dwellers to wanderers, can thrive, trade, and share laughter in the face of adversity.</p>
+  
+  <h3>The Community</h3>
+  <p>At Vault Coin, the community isn’t just an afterthought—it’s the backbone of everything we do. From meme competitions to trading NFTs inspired by Fallout’s iconic characters, Vault Coin empowers its users to shape the future of our ecosystem.</p>
+</section>
+
+
+    <section id="meme-gallery">
+      <h2>Memes from the Wasteland</h2>
+      <div class="meme-grid">
+        <img src="https://i.ibb.co/mcbyDGd/Anthony.png" alt="Meme Placeholder" data-meme="https://img-9gag-fun.9cache.com/photo/a2vWzbE_460s.jpg">
+        <img src="https://i.ibb.co/mcbyDGd/Anthony.png" alt="Meme Placeholder" data-meme="https://64.media.tumblr.com/c35065ff9483b521ad2fcc16c88c141f/f6e680724e34328e-32/s1280x1920/dc184b73db7a61be9d4a12cb0d139821ee4b64b6.jpg">
+        <img src="https://i.ibb.co/mcbyDGd/Anthony.png" alt="Meme Placeholder" data-meme="https://media.makeameme.org/created/crypto-ignorant-you.jpg">
+        <img src="https://i.ibb.co/mcbyDGd/Anthony.png" alt="Meme Placeholder" data-meme="https://media.tenor.com/snlMYwKSfRcAAAAe/shotcoin-fallout.png">
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Why Vault Coin?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <img src="https://media1.tenor.com/m/y-mERnNUBdUAAAAd/fallout76-nuke.gif" alt="Anti-Nuclear Inflation">
+          <h3>Anti-Nuclear Inflation</h3>
+          <p>Our blockchain is resistant to market fallout. Vault Coin survives even when the market crashes harder than a Vertibird.</p>
+        </div>
+        <div class="feature-card">
+          <img src="https://steamuserimages-a.akamaihd.net/ugc/863978694977667850/C6386BBE088F49048272A01A7BFE4439D43D09DF/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Community Driven">
+          <h3>Community Driven</h3>
+          <p>Join the most dedicated group of wasteland enthusiasts. Together, we build, meme, and thrive in the apocalypse.</p>
+        </div>
+        <div class="feature-card">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/1*p74CJaOfs1I07oU-srXYMA.gif" alt="Tokenomics">
+          <h3>Tokenomics</h3>
+          <p>With a supply of 1 billion coins, there's enough for everyone—but not too much to inflate like a vault-burger.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <h2>Vault Coin Roadmap</h2>
+      <ul>
+        <li><strong>Q1:</strong> Launch Vault Coin and expand the wasteland meme network.</li>
+        <li><strong>Q2:</strong> Introduce Vault Coin staking (think of it as burying caps for later).</li>
+        <li><strong>Q3:</strong> Release our meme-based NFT series featuring iconic wasteland characters.</li>
+        <li><strong>Q4:</strong> Vault Coin marketplace—trade items, skins, and more using your caps!</li>
+      </ul>
+    </section>
+
+    <section id="testimonials">
+      <h2>What the Wasteland Says</h2>
+      <div class="testimonial-grid">
+        <blockquote>
+          <p>"Vault Coin saved my life—well, my wallet at least!"</p>
+          <cite>— Vault Dweller #111</cite>
+        </blockquote>
+        <blockquote>
+          <p>"If you're not investing in Vault Coin, you're probably still drinking Nuka-Cola Quantum."</p>
+          <cite>— Lone Wanderer</cite>
+        </blockquote>
+        <blockquote>
+          <p>"Way better than using bottle caps. Thanks, Vault Coin!"</p>
+          <cite>— Preston Garvey</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2077 Vault Coin. Built for the future—no matter how bleak it is.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
